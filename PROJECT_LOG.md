@@ -5,6 +5,7 @@
 |---|---|---|---|---|
 | 0 | Charter & environment lock | COMPLETE | | |
 | 1 | Data audit & cleaning | Phase 1A COMPLETE| | |
+| | |Phase 1B COMPLETE| | |
 | 2 | SQL analytical layer | NOT STARTED | | |
 | 3 | Diagnostic notebook | NOT STARTED | | |
 | 4 | Dashboard | NOT STARTED | | |

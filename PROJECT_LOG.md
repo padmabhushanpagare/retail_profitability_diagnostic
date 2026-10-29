@@ -7,7 +7,7 @@
 | 1 | Data audit & cleaning | Phase 1A COMPLETE| | |
 | | |Phase 1B-i COMPLETE| | |
 | | |Phase 1B-ii| Audit notebook | COMPLETE | 2026-10-29 | a516b37, c3b5748, (Round 3 commit hash) |
-| 2 | SQL analytical layer | NOT STARTED | | |
+| 2 | SQL analytical layer | COMPLETE | | |
 | 3 | Diagnostic notebook | NOT STARTED | | |
 | 4 | Dashboard | NOT STARTED | | |
 | 5 | Memo & packaging | NOT STARTED | | |

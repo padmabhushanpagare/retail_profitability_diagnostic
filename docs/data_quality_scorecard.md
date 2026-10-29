@@ -358,7 +358,7 @@ specific finding.
 | **Validity** | 20% | 5.00 | 100.0% | Every initially flagged violation resolved to a legitimate encoding: negative `Qty` values are refunds, negative `Discounts` are dollar-off amounts. No invalid rows remain after correct interpretation. | `discount_pct` derived; `event_type = 'Refund'` documented as refund indicator. |
 | **Consistency** | 15% | 5.00 | 100.0% | `net_sales = gross_sales + discounts` verified at 100.00% (0 violations). `contribution_margin = net_sales − unit_cost × qty` verified at 100.00% (0 violations). | None — this is the load's core arithmetic guarantee. |
 | **Timeliness** | 20% | 5.00 | 100.0% | 24 complete months present. Two missing calendar days (2024-12-25, 2025-12-25) are documented store closures, not gaps. | None. |
-| **Overall** | **100%** | **4.95** | **99.0%** | — | **PASS — cleared for analysis.** |
+| **Overall** | **100%** | **4.95** | **98.8%** | — | **PASS — cleared for analysis.** |
 
 ## What was not checked
 

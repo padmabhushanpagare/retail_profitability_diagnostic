@@ -6,7 +6,7 @@
 | 0 | Charter & environment lock | COMPLETE | | |
 | 1 | Data audit & cleaning | Phase 1A COMPLETE| | |
 | | |Phase 1B-i COMPLETE| | |
-| | |Phase 1B-ii IN PROGRESS| | |
+| | |Phase 1B-ii| Audit notebook | COMPLETE | 2026-10-29 | a516b37, c3b5748, (Round 3 commit hash) |
 | 2 | SQL analytical layer | NOT STARTED | | |
 | 3 | Diagnostic notebook | NOT STARTED | | |
 | 4 | Dashboard | NOT STARTED | | |

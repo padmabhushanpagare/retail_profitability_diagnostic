@@ -117,3 +117,14 @@ counts reconcile to 961,389 (all `Payment` rows), confirming no line is
 orphaned. This correction was caught before commit by the pre-commit
 verification queries; no artifact downstream of Phase 1B-i inherited the
 wrong tier count.
+
+---
+
+### 2026-10-29 — Scorecard overall corrected from 99.0% to 98.8%
+
+The scorecard's stated overall of "99.0%" was a rounding impression written
+at Phase 1B-i. The actual weighted computation
+(`0.25×95 + 0.20×100 + 0.20×100 + 0.15×100 + 0.20×100`) is **98.75%**. The
+discrepancy was caught when `notebooks/01_data_audit.ipynb` cell 5 recomputed
+the scorecard from the same inputs and printed 98.8%. The doc and the notebook
+now agree. No data or dimension scores changed — only the arithmetic summary.

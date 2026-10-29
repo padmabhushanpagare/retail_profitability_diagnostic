@@ -378,8 +378,9 @@ transparency:
 
 ## Verdict
 
-**PASS — 99.0%.** All money-critical columns are complete, arithmetic is
+**PASS — 98.8%.** All money-critical columns are complete, arithmetic is
 internally consistent at 100%, the load reconciles to the vendor summary file
 at delta 0.00 for all 30 stores, and the two apparent issues (missing
 `refund` column, `customer_id` NULLs) are business features rather than
 defects. The dataset is cleared for analysis in Modules 2–5.
+

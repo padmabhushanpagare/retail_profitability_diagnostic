@@ -10,7 +10,7 @@
 | 2 | SQL analytical layer | COMPLETE | | |
 | 3 | Diagnostic notebook | COMPLETE | | |
 | 4 | Dashboard | COMPLETE | | |
-| 5 | Memo & packaging | NOT STARTED | | |
+| 5 | Memo & packaging | COMPLETE | | |
 | 6 | Quality gate & rehearsal | NOT STARTED | | |
 
 ## Decision log

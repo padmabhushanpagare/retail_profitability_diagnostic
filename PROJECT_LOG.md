@@ -11,7 +11,7 @@
 | 3 | Diagnostic notebook | COMPLETE | | |
 | 4 | Dashboard | COMPLETE | | |
 | 5 | Memo & packaging | COMPLETE | | |
-| 6 | Quality gate & rehearsal | NOT STARTED | | |
+| 6 | Quality gate & rehearsal | COMPLETE | | |
 
 ## Decision log
 | Date | Decision | Reason |

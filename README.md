@@ -21,9 +21,14 @@ I analyzed **970,838 line items** across a 30-store retail chain over 24 months.
 ![Dashboard](docs/figures/dashboard_screenshot.png)
 
 ## How to Reproduce
-1. `docker compose up -d`
-2. `python scripts/01_build_staging.py`
-3. Run the SQL files in `sql/` sequentially, or run the Jupyter notebooks.
+**Prerequisites:** Docker, Python 3.10+, Power BI Desktop (optional, for dashboard).
+
+1. **Data Acquisition:** Download the dataset from [Mendeley Data](https://data.mendeley.com/datasets/39xdjxgnmf/1). Extract the files into `data/raw/`. (Note: The raw data is gitignored to keep the repository lightweight).
+2. **Environment Setup:** 
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # Or venv\Scripts\activate on Windows
+   pip install -r requirements.txt
 
 ## Executive Memo
 Read the full [recommendation memo here](deliverables/memo.md).

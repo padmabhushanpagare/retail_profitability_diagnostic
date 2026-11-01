@@ -22,6 +22,4 @@ venv/
 Thumbs.db
 
 # Power BI
-*.pbix~
-dashboard/*.pbix
 dashboard/*.twbx
